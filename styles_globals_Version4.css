@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Додаткові неонові ефекти */
+.neon-text {
+  color: #13F4FF;
+  text-shadow: 0 0 8px #13F4FF, 0 0 16px #23BFFF;
+}
+.neon-pink {
+  color: #F953FF;
+  text-shadow: 0 0 8px #F953FF, 0 0 16px #E135D3;
+}
+.dw-card {
+  background: linear-gradient(135deg, #101C3A 70%, #0A1029 100%);
+  box-shadow: 0 2px 24px #13F4FF44, 0 0 0 #0000;
+  border-radius: 1.5rem;
+}
